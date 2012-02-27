@@ -529,3 +529,44 @@ ul.checklist li {
     border:0;
     display:block;
 }
+
+
+div#tables table {
+	border:1px solid blue;
+}
+div#tables .short-table th {
+	border-bottom:1px solid blue;
+	text-align:center;
+	height:80px;
+	color: #5d6067;
+	font-family: 'Metrophobic', sans-serif;
+	font-size:14px;
+}
+div#tables .short-table th.features {
+	border-bottom:none;
+	height:40px;
+	line-height:40px;
+	background-color:transparent;
+	color: #5d6067;
+	font-family: 'Metrophobic', sans-serif;
+}
+div#tables tr:nth-child(2n) {
+ background-color: #e5e5e5;
+ border:1px solid white;
+}
+div#tables td {
+	text-align:center;
+	min-height:40px;
+	line-height:40px;
+	color:#757475;
+}
+#content td img {
+	border:none;
+	vertical-align:middle;
+	margin:0;
+}
+/*blue*/
+div#tables .blue th {
+	background-color: #18b5ed;
+	color:#fff;
+}

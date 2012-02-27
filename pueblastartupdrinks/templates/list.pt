@@ -12,6 +12,8 @@
 	<link rel="stylesheet" href="${request.static_url('pueblastartupdrinks:static/css/style.css')}" type="text/css" media="screen" />
 	<link rel="stylesheet" href="${request.static_url('pueblastartupdrinks:static/css/skins/style_blue.css')}" type="text/css" media="screen" />
 	
+	<link href='http://fonts.googleapis.com/css?family=Homenaje|Metrophobic' rel='stylesheet' type='text/css' />
+	
 	<!-- Framework CSS -->
 	<link rel="stylesheet" href="${request.static_url('pueblastartupdrinks:static/css/960.css')}" type="text/css" media="screen" />
 	<link rel="stylesheet" href="${request.static_url('pueblastartupdrinks:static/css/reset.css')}" type="text/css" media="screen" />
@@ -32,7 +34,6 @@
 	<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
 
 	<script type="text/javascript" src="${request.static_url('pueblastartupdrinks:static/js/jquery.mousewheel-3.0.4.pack.js')}"></script>
-	<script type="text/javascript" src="${request.static_url('pueblastartupdrinks:static/js/jquery.twitter.js')}"></script>
 	
 
 </head>
@@ -49,9 +50,9 @@
 		<hr class="grid_12"></hr>
 	</div><!-- Header Break Line END -->
 
-    <div id="main_content" class="container_12">
-    
-     <table style="width:940px" border="1" cellpadding="0" cellspacing="0" class="short-table blue">
+  <div id="main_content" class="container_12">
+    <div id="tables">
+     <table style="width:940px" cellpadding="0" cellspacing="0" class="short-table blue">
             <thead>
               <tr>
                 <th style="width:10%"></th>
@@ -66,7 +67,7 @@
                 <td>${attendant.user_name}</td>
                 <td>
                     <a href="${attendant.url}" target="_blank">
-                    <img src="/static/img/${attendant.network}.png" width="32" height="32" />
+                    <img src="/static/images/${attendant.network}.png" width="32" height="32" />
                         <span tal:condition="attendant.network == 'facebook'">@${attendant.user_name}</span>
                         <span tal:condition="attendant.network == 'twitter'">@${attendant.user_id}</span>
                     </a>
@@ -76,8 +77,9 @@
             </tbody>
           </table>
     </div>
+  </div>
 
-    </div>
+  </div>
 
 </body>
 </html>

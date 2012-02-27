@@ -36,7 +36,6 @@
 	<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
 
 	<script type="text/javascript" src="${request.static_url('pueblastartupdrinks:static/js/jquery.mousewheel-3.0.4.pack.js')}"></script>
-	<script type="text/javascript" src="${request.static_url('pueblastartupdrinks:static/js/jquery.twitter.js')}"></script>
 		
     <!-- Nivo Slider -->
 	<!-- http://nivo.dev7studios.com/ -->
@@ -331,7 +330,7 @@
 
     			<a  href="http://www.containercity.com.mx/" target="blank"><img src="/static/images/logo-containercity.png" /></a> &nbsp; &nbsp;
     			<a  href="http://www.containercity.com.mx/kaffeina" target="blank"><img src="/static/images/logo-kaffeina.png" height="69px"/></a> &nbsp; &nbsp;
-    			<a  href="http://iservices.mx/" target="blank"><img src="/static/images/iservices-logo-200px.png" /></a>
+    			<a  href="http://iservices.mx/" target="blank"><img src="/static/images/logo-iservices-200px.png" /></a>
     		</div>
     		<br />
 		<div class="clear"></div><!-- CLEAR -->

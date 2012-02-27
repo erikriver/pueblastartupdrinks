@@ -12,6 +12,8 @@
 	<link rel="stylesheet" href="${request.static_url('pueblastartupdrinks:static/css/style.css')}" type="text/css" media="screen" />
 	<link rel="stylesheet" href="${request.static_url('pueblastartupdrinks:static/css/skins/style_blue.css')}" type="text/css" media="screen" />
 	
+	<link href='http://fonts.googleapis.com/css?family=Homenaje|Metrophobic' rel='stylesheet' type='text/css' />
+	
 	<!-- Framework CSS -->
 	<link rel="stylesheet" href="${request.static_url('pueblastartupdrinks:static/css/960.css')}" type="text/css" media="screen" />
 	<link rel="stylesheet" href="${request.static_url('pueblastartupdrinks:static/css/reset.css')}" type="text/css" media="screen" />
@@ -32,7 +34,6 @@
 	<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
 
 	<script type="text/javascript" src="${request.static_url('pueblastartupdrinks:static/js/jquery.mousewheel-3.0.4.pack.js')}"></script>
-	<script type="text/javascript" src="${request.static_url('pueblastartupdrinks:static/js/jquery.twitter.js')}"></script>
 	
 
 </head>
