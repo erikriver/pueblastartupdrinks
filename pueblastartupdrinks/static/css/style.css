@@ -532,12 +532,12 @@ ul.checklist li {
 
 
 div#tables table {
-	border:1px solid blue;
+	border:1px solid white;
 }
 div#tables .short-table th {
-	border-bottom:1px solid blue;
+	border-bottom:1px solid white;
 	text-align:center;
-	height:80px;
+	height:40px;
 	color: #5d6067;
 	font-family: 'Metrophobic', sans-serif;
 	font-size:14px;
@@ -555,7 +555,7 @@ div#tables tr:nth-child(2n) {
  border:1px solid white;
 }
 div#tables td {
-	text-align:center;
+	/*text-align:center;*/
 	min-height:40px;
 	line-height:40px;
 	color:#757475;
