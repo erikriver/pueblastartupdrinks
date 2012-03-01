@@ -32,7 +32,7 @@ hr {
 h1 {
     font-family: "Homenaje", Helvetica, Arial, sans-serif;
 	font-size: 38px;
-	color: #333;
+	color: #603815;
 	letter-spacing:0.01em;
 }
 
@@ -41,7 +41,7 @@ h2 {
 	font-size: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #333333;
+	color: #603815;
 }
 
 h3 {
@@ -49,21 +49,21 @@ h3 {
 	font-size: 21px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #333333;
+	color: #603815;
 }
 
 h4 {
     font-family: "Homenaje", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: bold;
-	color: #333333;
+	color: #603815;
 }
 
 h5 {
     font-family: "Homenaje", Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
-	color: #333333;
+	color: #603815;
 }
 
 h6 {
@@ -81,11 +81,12 @@ ol {
 }
 
 ul {
-	list-style: disc;
+    list-style: disc;
 }
 
 li {
 	margin-left: 20px;
+	display: inline;
 }
 
 p,

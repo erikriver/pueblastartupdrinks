@@ -132,10 +132,14 @@
     }(document, 'script', 'facebook-jssdk'));</script>    
 	
 		<!-- Start Head Container -->
-		<div class="container_12 margin">
+		<div class="container_12">
 		
 			<!-- Logo -->
 			<h1 class="grid_9 logo"><a href="/" class='ie6fix'>Puebla Startup Drinks</a></h1>
+			
+			<div class="grid_3 margin-1">
+			 <div class="fb-like" data-href="http://www.facebook.com/pages/Puebla-StartupDrinks/310934795630266" data-send="false" data-layout="box_count" data-width="150" data-show-faces="true"></div>
+			</div>
 			
 
 		</div><!-- Head Container END -->
@@ -156,7 +160,7 @@
 			<div class="grid_12 middle">
 				
 				<!-- Heading -->	
-				<h1 class="heading">Primera Edición - 7 / Marzo / 2012</h1>
+				<h1 class="heading">Miércoles 7 de Marzo - 7:00 PM</h1>
 				
 				
 			</div><!-- Centered Text END -->
@@ -205,36 +209,40 @@
 		<div class="clear"></div><!-- CLEAR -->
 		
 		<!-- Start Box 1 -->
-		<div class="grid_4">
-		<div class="box">
-			<img class='alignleft_icon' src='/static/images/icons/Edit.png' alt=''/>
-			<h3>¿Quienes Asisten?</h3>
-			<hr />
-			<p> Emprendedores actuales o potenciales, nuevos o consolidados, de todo tipo de proyecto y edad. Mentores, inversionistas y aliados estratégicos</p>
-			<br />
-			<br />
-			<br />
-			<br />
-		</div>
+		<div class="grid_8">
+		<div class="grid_4 alpha">
+		    <div class="box">
+    			<img class='alignleft_icon' src='/static/images/icons/Mail_Read.png' alt=''/>
+    			<h3>¿Que es StartupDrinks?</h3>
+    			<hr />
+    			<p>Es una reunión mensual realizada en bares por la comunidad emprendedora. No hay agenda ni protocolos formales.
+                Un concepto simple: la comunidad emprendedora poblana se reúne en un bar para tomar una cerveza, platicar sus proyectos, en qué andan y cómo pueden ayudarse entre ellos.</p>
+    		</div>
+    		
 		</div><!-- Box 1 END -->
 		
 		<!-- Start Box 2 -->
-		<div class="grid_4">
-		<div class="box">
-			<img class='alignleft_icon' src='/static/images/icons/Mail_Read.png' alt=''/>
-			<h3>¿Que es StartupDrinks?</h3>
-			<hr />
-			<p>Es una reunión mensual realizada en bares por la comunidad emprendedora. No hay agenda ni protocolos formales.
-            Un concepto simple: la comunidad emprendedora poblana se reúne en un bar para tomar una cerveza, platicar sus proyectos, en qué andan y cómo pueden ayudarse entre ellos.</p>
-		</div>
+		<div class="grid_4 omega">
+		    <div class="box">
+    			<img class='alignleft_icon' src='/static/images/icons/Edit.png' alt=''/>
+    			<h3>¿Quienes Asisten?</h3>
+    			<hr />
+    			<p> Emprendedores actuales o potenciales, nuevos o consolidados, de todo tipo de proyecto y edad.<br />
+    			     Mentores, inversionistas y aliados estratégicos</p>
+    			<br />
+    			<br />
+    			<br />
+    		</div>
 		</div><!-- Box 2 END -->
 		
+		
 		<!-- Start Box 3 -->
-		<div class="grid_4">
+		<div class="grid_8 alpha">
 		<div class="box">
 			<img class='alignleft_icon' src='/static/images/icons/Box.png' alt=''/>
 			<h3>Otros StartupDrinks</h3>
 			<hr />
+			<br/ >
 			<ul>
 			 <li><a href="http://www.startupdrinks.ca/" target="blank">Canada</a></li>
 			 <li><a href="http://aperoentrepreneurs.com/" target="blank">Francia</a></li>
@@ -245,30 +253,12 @@
 		</div>
 		</div><!-- Box 3 END -->
 		
-		<div class="clear"></div><!-- CLEAR -->
-		
-
-		<div class="grid_4 margin-1">
-		    <h4>Facebook</h4>
-			<hr />
-			<div class="fb-like-box" data-href="http://www.facebook.com/pages/Puebla-StartupDrinks/310934795630266" data-width="300" data-height="360" data-show-faces="true" data-stream="false" data-header="false"></div>
-			
 		</div>
 		
-		<div class="grid_4 margin-1">
-		
-			<h4>Ubicación</h4>
-			<hr />
-            <div class="whiteframe" id="map_canvas" style="width:300px; height:320px"></div>
-            
-            <p>
-            <a href="http://www.containercity.com.mx/" target="blank">Container City</a> - 12 Oriente esquina 2 Norte No. 9<br />
-            San Andrés, Cholula. Puebla,</p>
-
-		</div><!-- Features 2 END -->
-
-		<div class="grid_4 margin-1">
-			<h4>Twitter</h4>
+		<div class="grid_4">
+		    <div class="box">
+		    
+			<h3>Twitter</h3>
 			<hr />
             <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
             <script>
@@ -279,12 +269,12 @@
               interval: 30000,
               title: '',
               subject: '#PueblaStartupDrinks',
-              width: 300,
-              height: 290,
+              width: 280,
+              height: 250,
               theme: {
                 shell: {
                   background: '#ffffff',
-                  color: '#446094'
+                  color: '#603815'
                 },
                 tweets: {
                   background: '#ffffff',
@@ -300,15 +290,16 @@
               }
             }).render().start();
             </script>
-
+            </div>
 		</div>
+		
+		
+		<div class="clear"></div><!-- CLEAR -->
 
-
-		<div class="grid_12 margin-1">
+		<div class="grid_6 margin-1">
 
 			<h4>¿Quienes Somos?</h4>
 			<hr />
-		</div>
 		<div class="grid_6">
 		    <a href="http://www.angelventuresmexico.com" style="float:left; padding:5px;"><img src="/static/images/logo_avm.png" height="120" /></a>
 		    <b>Angel Ventures México</b> opera redes de inversionistas ángeles en el país.
@@ -322,6 +313,20 @@
             alto impacto del mundo.
 		    
 		</div>
+		</div>
+		
+		<div class="grid_6 margin-1">
+		
+			<h4>Ubicación</h4>
+			<hr />
+            <div class="whiteframe" id="map_canvas" style="width:460px; height:240px"></div>
+            
+            <p>
+            <a href="http://www.containercity.com.mx/" target="blank">Container City</a> - 12 Oriente esquina 2 Norte No. 9<br />
+            San Andrés, Cholula. Puebla,</p>
+
+		</div><!-- Features 2 END -->
+		
 		
 			<div class="grid_12 margin-1">
 
