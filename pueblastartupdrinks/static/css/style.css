@@ -532,10 +532,10 @@ ul.checklist li {
 
 
 div#tables table {
-	border:1px solid white;
+	border:2px solid white;
 }
 div#tables .short-table th {
-	border-bottom:1px solid white;
+	border-bottom:2px solid white;
 	text-align:center;
 	height:40px;
 	color: #603815;
@@ -552,7 +552,7 @@ div#tables .short-table th.features {
 }
 div#tables tr:nth-child(2n) {
  background-color: #e5e5e5;
- border:1px solid white;
+ border:2px solid white;
 }
 div#tables td {
 	/*text-align:center;*/
@@ -568,6 +568,6 @@ div#tables td {
 }
 /*blue*/
 div#tables .blue th {
-	background-color: #18b5ed;
+	background-color: #603815;
 	color:#fff;
 }
